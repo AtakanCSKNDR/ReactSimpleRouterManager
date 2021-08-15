@@ -1,10 +1,16 @@
 import React from 'react';
 import { routes } from "./routes/index";
 import SimpleRouterManager from './routeManage/SimpleRouterManager';
+import { BrowserRouter as Router, Link} from "react-router-dom";
 const App = () => {
   return (
     <div>
-      <SimpleRouterManager router={routes}></SimpleRouterManager>
+      <Router>
+        <Link to="/">Home</Link> | 
+        <Link to="/dashboard">Dashboard</Link> | 
+        <Link to="/profile">Profile</Link>
+        <SimpleRouterManager router={routes}></SimpleRouterManager>
+      </Router>
     </div>
   );
 };
