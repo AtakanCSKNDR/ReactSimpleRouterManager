@@ -1,5 +1,6 @@
 {
-  "name": "router-manager-react",
+  "name": "react-simple-router-manager",
+  "main": "./src/routeManage/SimpleRouterManager.js",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
