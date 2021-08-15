@@ -1,6 +1,6 @@
 import React from 'react';
 import { routes } from "./routes/index";
-import SimpleRouterManager from './routeManage/SimpleRouterManager';
+import SimpleRouterManager from 'react-simple-router-manager';
 const App = () => {
   return (
     <div>
@@ -9,8 +9,5 @@ const App = () => {
   );
 };
 
-App.propTypes = {
-  
-};
 
 export default App;
